@@ -20,6 +20,8 @@ public class UserService {
     private UserMapper userMapper;
 
     public User querById(Long id) {
+
+        System.out.println("asd");
         return userMapper.selectByPrimaryKey(id);
     }
 
